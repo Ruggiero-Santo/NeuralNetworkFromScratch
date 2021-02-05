@@ -1,23 +1,15 @@
-# Progetto Machine learning- Computaitional Mathematics
+# Machine learning project
+The project was done in collaboration with [Michele Cafagna](https://github.com/michelecafagna26)
+For more information please read the report.
 
-## Must del professore
-
-* Pesi inizializzati casualmente
-
-* Provare un numero di configurazioni iniziali minimo (es: 10 test framework)
-
-* Nella versione gli esempi di test devono essere forniti casualmente
-
+## Professor's request
+* Randomly initialised weights
+* Try a minimum number of initial configurations (e.g. 10 test frameworks)
+* The test examples must be provided randomly
 * Momentum
-
-* Verificare la curva di Learning (disegnarla ad ogni test)
-
-* Utilizzare la media dei gradienti (eta/l), soprattuto se si usa mini batch [NN-part2 slide 25](https://elearning.di.unipi.it/enrol/index.php?id=100)
-
-* ottimizzazione
-
-* Stopping critera, in ogni caso fermarsi dopo un numero troppo grande di epoche
-
-* Regolarizzazione
-
-* Utilizzare le euristiche (slide)
+* Check the learning curve (draw it with each test)
+* Use average gradients (eta/l), especially if using mini batch [NN-part2 slide 25](https://elearning.di.unipi.it/enrol/index.php?id=100)
+* Optimisation
+* Stopping criteria, in any case stop after too large a number of epochs
+* Regularisation
+* Use heuristics (slide)
