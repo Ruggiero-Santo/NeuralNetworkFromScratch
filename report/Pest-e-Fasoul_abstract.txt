@@ -1,0 +1,5 @@
+La rete immplementata ha un'hidden layer con 8 neuroni e 2 output ottimizzata con AdaDelta. Per la scelta del modello, si è estratto un training set prelevando l'80% dei record
+dal dataset a nostra disposizione, il restante 20% è stato separato per utilizzarlo come testset nella valutazione finale. Si fatto uso di  3-fold cross validation per valutare 
+le combinazioni generate prima con ricerca casuale e poi con una ricerche a griglia successive per restringere i target. Una volta scelto il modello lo si è addestratoi con l'intero 
+training set (senza validation) e lo si è testato sul testset (corrispondende al 20% del dataset originale). Al termine del processo, si è riaddestrato il modello con tutto il dataset 
+a disposizione e sono state fatte le previsioni, sul testset fornitoci per il blind test.

@@ -1,0 +1,26 @@
+"NumLayer: 2
+     Input Network: 17
+     Info Layer:
+     1 Livello: 
+     	 Input: 17
+     	 Units: 2
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Rand
+     		 Range: [-0,5 0.5]
+     2 Livello: 
+     	 Input: 2
+     	 Units: 1
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Rand
+     		 Range: [-0,5 0.5]
+     Eta: 0.5
+     Epoch: 250
+     Momentum: 0.8
+     Regulaziation: 0.0001
+     Batch size: 25
+     Valid %: 0
+     
+     Min Loss Train: 0.022486
+     Last Loss Train: 0.022486
+     Max Accuracy Train: 0.95082
+     Last Accuracy Train: 0.95082"

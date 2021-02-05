@@ -1,0 +1,55 @@
+Minibatch:
+"NumLayer: 2
+     Input Network: 17
+     Info Layer:
+     1 Livello: 
+     	 Input: 17
+     	 Units: 3
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Rand
+     		 Range: [-0,5 0.5]
+     2 Livello: 
+     	 Input: 3
+     	 Units: 1
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Normal
+     		 Range: [-0,5 0.5]
+     Eta: 0.7
+     Epoch: 1000
+     Momentum: 0.85
+     Regulaziation: 1e-05
+     Batch size: 25
+     Valid %: 0
+     
+     Min Loss Train: 0.00046842
+     Last Loss Train: 0.00046842
+     Max Accuracy Train: 1
+     Last Accuracy Train: 1"
+-----------------------------------------------
+online:
+"NumLayer: 2
+     Input Network: 17
+     Info Layer:
+     1 Livello: 
+     	 Input: 17
+     	 Units: 3
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Normal
+     		 Range: [-0,5 0.5]
+     2 Livello: 
+     	 Input: 3
+     	 Units: 1
+     	 F Activation: fLogistic
+     	 F Initialization: initialize_Normal
+     		 Range: [-0,5 0.5]
+     Eta: 0.03
+     Epoch: 100
+     Momentum: 0.8
+     Regulaziation: 1e-04
+     Batch size: 1
+     Valid %: 0
+     
+     Min Loss Train: 0.00321
+     Last Loss Train: 0.00374
+     Max Accuracy Train: 1
+     Last Accuracy Train: 1"
